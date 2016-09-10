@@ -3,6 +3,34 @@
     background-repeat: no-repeat
 }
 
+.purple_dark{
+    background-color:#7B1FA2;
+    color: #E1BEE7;
+}
+.purple_light{
+    background-color:#9C27B0;
+    color: #E1BEE7;
+}
+
+.red_dark{
+    background-color: #D32F2F;
+    color: #FFCDD2;
+}
+.red_light{
+    background-color: #F44336;
+    color: #FFCDD2;
+}
+.yellow_dark{
+     background-color:#FFA000;
+     color: #FFECB3;
+}
+.yellow_light{
+     background-color:#FFC107;
+     color: #FFECB3;
+}
+
+
+
 .icons-add_to_fav {
     background-position: 0 0;
     height: 36px;
@@ -624,7 +652,7 @@ body,html {
 body {
     background-color: #151618;
     height: 100%;
-    overflow: hidden;
+    overflow: visible; /*change io hidden after you finish*/
     min-width: 1240px
 }
 
@@ -883,7 +911,7 @@ section {
     height: 46px;
     background-color: #07537e;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .user-login-block .avatar:after,.user-login-block .avatar:before {
@@ -1287,7 +1315,7 @@ main.show {
     transition: -webkit-transform .5s ease-in-out;
     transition: transform .5s ease-in-out;
     transition: transform .5s ease-in-out,-webkit-transform .5s ease-in-out;
-    overflow: hidden
+    /*overflow: hidden;/* change it */
 }
 
 .slide.current {
@@ -1379,7 +1407,7 @@ main.show {
     left: 50%;
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-    overflow: hidden
+    overflow: hidden;
 }
 
 .single-site-block .video-bg:after {
@@ -1668,7 +1696,7 @@ main.show {
     font-size: 0;
     max-height: inherit;
     overflow: hidden;
-    transition: max-height .5s ease-in-out
+    transition: max-height .5s ease-in-out;
 }
 
 .single-site-block .categories .single-category {
@@ -1875,5 +1903,5 @@ main.show {
     width: 100%;
     padding: 0;
     height: 979px;
-    overflow: hidden
+    overflow: hidden;/*change to hidden*/
 }
